@@ -1,0 +1,286 @@
+/*<!--提示 步骤 4个li-->*/
+#prompt{
+    height: 50px;
+}
+#prompt .container{
+    width:70%;
+    /*border-bottom: 2px solid #929292;*/
+}
+
+#prompt ul{
+    text-align: center;
+}
+#prompt ul li{
+    height: 37px;
+    float: left;
+    width: 190px;
+    font-size: 22px;
+    margin-top: 10px;
+    padding-left: 80px;
+    color: #b3b3b3;
+}
+
+#prompt ul li div{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #929292;
+    border-radius: 30px;
+    line-height: 30px;
+    color: #dddddd;
+}
+
+#prompt .li1{
+    /*box-shadow: 0px 2px 2px #858585;*/
+    margin-left: 50px;
+    border-bottom: 3px solid #ff0036;
+}
+#prompt .li1 div{
+    background-color: #ff0036;
+}
+
+/*  er  */
+
+#subject {
+    height: 1000px;
+
+}
+#subject .container{
+    width:70%;
+    height: 100px;
+    border-top: 2px solid #929292;
+    background-color: white;
+}
+/* 0- */
+#a-agree {
+    width: 80%;
+    height: 500px;
+    /*border: 1px solid #000;*/
+    /*background-color: #ff0036;*/
+
+    position: absolute;
+    z-index: 100;
+    left: 83px;
+    top: 105px; 
+}
+#a-agree .container{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border: 1px solid #000;
+}
+#a-agree  .a-header{
+    margin: 20px;
+}
+#a-agree  p{
+    margin-bottom: 10px;
+}
+#a-agree p a{
+    color: #ff0036;
+}
+#a-agree p button{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #ff0036;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ff0036;
+}
+
+/* 1- */
+#b-mobile{
+    display: none;
+    
+}
+#b-mobile .b-container{
+    /*text-align: center;*/
+    margin-top: 60px;
+}
+#b-mobile table{
+    width:700px;
+    margin-left: 180px;
+    /*border: 1px solid #000;*/
+}
+#b-mobile table tr td{
+    height: 60px;
+    /*width:300px;*/
+}
+#b-mobile table tr td:nth-of-type(1){
+    text-align: right;
+    padding-right: 50px;
+}
+#b-mobile table tr td:nth-of-type(2){
+    width: 500px;
+    text-align: left;
+}
+#b-mobile button{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+
+    font-size: 18px;
+    color: #e6e6e6;
+    background-color: #c9c9c9;
+    letter-spacing: 5px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+#b-mobile-input-span{
+    color: red;
+    font-size: 12px;
+}
+
+/*  b- 滑块 */
+#drag{
+    position: relative;
+    background-color: #e8e8e8;
+    width: 300px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+#drag .handler{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 32px;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+.handler_bg{
+    background: #fff url("滑块.png") no-repeat center;
+}
+.handler_ok_bg{
+    background: #fff url("下载.png") no-repeat center;
+}
+#drag .drag_bg{
+    background-color: #7ac23c;
+    height: 34px;
+    width: 0px;
+}
+#drag .drag_text{
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -o-user-select:none;
+    -ms-user-select:none;
+}
+
+
+/*  c-mobile     */
+#c-mobile{
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+    border: 1px solid #000;
+    /*box-sizing: border-box;*/
+    padding-right: 10px;
+    border-top: 2px solid #e31a67;
+    display: none;
+}
+#c-mobile h3{
+    padding: 20px;
+}
+#c-mobile .icons{
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #ff0036;
+}
+#c-mobile table{
+    margin-top: 30px;
+
+}
+#c-mobile table tr td:nth-of-type(1){
+    width: 100px;
+    height: 40px;
+}
+#c-mobile table tr td:nth-of-type(2){
+    width: 300px;
+    height: 40px;
+}
+#b-mobile-button2{
+    height: 29px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 2px;
+    background-color: #dedede;
+    color: #b3b3b3;
+}
+#c-mobile-button{
+    width: 160px;
+    height: 35px;
+    letter-spacing: 3px;
+    margin-top: 9px;
+}
+
+
+
+#d-money{
+    display: none;
+}
+#d-money .d-container{
+    width: 60%;
+    padding-top: 100px;
+}
+
+#d-money table{
+    margin-top: 30px;
+}
+#d-money table tr td:nth-of-type(1){
+    width: 100px;
+    height: 40px;
+}
+#d-money table tr td:nth-of-type(2){
+    width: 300px;
+    height: 40px;
+}
+#d-money table tr td input{
+    height: 27px;
+}
+#d-money table tr td button{
+    width: 165px;
+    height: 30px;
+}
+#d-mobile-input-span1,#d-mobile-input-span2 {
+    color: #ff0036;
+    font-size: 12px;
+}
+
+#OK{
+    display: none;
+}
+#OK .container{
+    margin-top: 100px;
+    width: 60%;
+    text-align: center;
+}
+#OK h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#OK p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

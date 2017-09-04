@@ -1,0 +1,124 @@
+
+/*
+    OK
+    自己思考去做
+    背景图片使用
+    自己截图
+    拷贝代码
+*/
+
+
+.wall{
+    clear: both;
+}
+
+#foot-service{
+
+}
+/*  容器 85%  */
+#foot-service .container{
+     width: 85%;
+}
+
+#ensure a{
+    height: 100px;
+    width: 230px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    display: inline-block;
+}
+/*  foot-copyright  */
+#foot-copyright{
+    border-top: 2px solid #ff0036;
+    min-height: 177px;
+    font-size:12px;
+    background-color: #000000;
+}
+#foot-copyright .container{
+    width: 85%;
+    height: 205px;
+    padding-top: 10px;
+}
+#foot-copyright .container a{
+    color: white;
+}
+#foot-copyright .container span{
+    color: whitesmoke;
+}
+#foot-copyright .container .footer-main {
+    margin-bottom: 20px;
+}
+#foot-copyright .container .footer-other-link{
+    margin-bottom: 10px;
+}
+#foot-copyright .container .main-copyright span{
+    color: #a4a4a4;
+}
+#foot-copyright .container .main-copyright a{
+    color: #a4a4a4;
+}
+#foot-copyright .container .main-copyright .need{
+    color: #686868;
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+}
+#foot-copyright .container .footer-other-link span{
+    display: inline-block;
+    width: 5px;
+    text-align: center;
+    margin-left: 3px;
+}
+/*<!--  guard  -->*/
+/* 调整了背景图片 使用  背景图片定位   */
+#guard{
+    background-color: #fefffc;
+    background: url('../../img/zxd/footer/TB1dl001.png') no-repeat;
+    background-size: 68px 25px;
+    background-position:left bottom;
+    padding-bottom: 30px;
+}
+#guard .container{
+    width: 100%;
+}
+#guard .container dl{
+    width: 20%;
+    float: left;
+    height: 170px;
+}
+
+#guard .container dl dt{
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+#guard .container dl span{
+    font-size:16px;
+}
+#guard .container dl dd{
+    text-align: center;
+}
+#guard a{
+    font-size:14px;
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #8b8b8b;
+}
+/*手机二维码的*/
+#guard-mobile dd a{
+
+    width:105px;
+    height:105px;
+    margin-top: 13px;
+    margin-left:70px;
+    background: url("../../img/zxd/footer/TB14105-105.png") no-repeat;
+}
+
+
+
+
+
+

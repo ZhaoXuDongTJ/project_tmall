@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>天猫登录</title>
+		<!--最新版本的Bootstrap核心css文件-->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!--可选的Bootstrap主题文件（一般不引入）  -->
+		<link rel="stylesheet" href="css/bootstrap-theme.css" />
+		<!--jquery文件务必在bootstrap.min.js之前引入  -->
+		<script src="js/jquery-1.11.3.js"></script>
+		<!--最新版本的Bootstrap核心javascript文件-->
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/blh/blh登录.css" />
+		<script src="js/blh登录.js"></script>
+		
+	</head>
+	<body style="">
+		<!--整体容器的开始-->
+		<div id="container">
+			
+			<!--头部容器的开始-->
+			<div id="header">
+				<div id="logo" ><a href="homepage.html"><img src="img/blh/logo.png" /></a></div>
+			<!--头部容器的结束-->	
+			
+			</div>
+			
+			<!--主体容器的开始-->
+			<div id="main">
+				<div id="content1" style="background: url(img/blh/red.png);">
+				
+					<div id="content2">
+						  <div id="tubiaoC" style="background: url(img/blh/code.png);" ></div>
+						  <div id="tubiaoZ" style="background: url(img/blh/zh.png);" ></div>
+						  <div id="tishi" style="background: url(img/blh/tishi.png);"></div>
+						  <div id="zhanghao">
+						  	<b>密码登录</b>
+						  		<div id="zhanghaoBG" >
+						  			<div id="shang">
+								  			<div id="yhxiaobiao" style="background:url(img/blh/1.png) ; "></div>
+								  			<div id="YUSR"><input class="ZH" type="text" id="username" placeholder="会员名/邮箱/手机号 " onblur="textUserName()"><span id="span1"  style="margin-left:40px ;"></span></div>
+						  			</div>
+						  			<div id="xia">
+								  			<div id="mmxiaobiao" style="background:url(img/blh/2.png) ;"></div>
+								  			
+								            <div id="MMSR"><input  class="ZH"   type="password" id="psw" onblur="testPSW()">
+								            <span id="span2" > </span>
+						            </div>
+						            </div>
+						            <div id="denglu"><b><a href="homepage.html"><input class="ZH" class="dl" type="button" value="登录" style="background-color:red ; width:235px ; height:43px ; color:white ; font-size:15px;"></a> </b></div>
+						  		</div>
+						  		<div id="last" >
+						  		<ul>
+						  		<li><a href="#">忘记密码</a><a href="#">忘记会员名</a><a href="register.html">免费注册</a></li>
+						  		</ul>
+						  		</div>
+						  		
+						  </div>
+						  <div id="code">
+						  	<b>手机扫码，安全登录</b>
+						  	<div id="codet" style="background:url(img/blh/codet.png) ;"></div>
+						  	<div id="a"><img  src="img/blh/a.png"/></div>
+						  	<div id="final" >
+						  		<ul>
+						  		<li  class="pass"><a href="#">密码登录</a><a href="#">免费注册</a></li>
+						  		</ul>
+						  	</div>
+						  </div>
+					</div>
+				</div>
+				
+				
+			<!--主体容器的结束-->	
+			</div>
+			
+			<!--底部容器的开始-->
+			<div id="footer">
+				
+				<div id="first">
+					<div id="claim1">
+						<ul>
+						<li><a href="#">关于天猫</li>
+						<li><a href="#">帮助中心</li>
+						<li><a href="#">开放平台</li>
+						<li><a href="#">诚聘英才</li>
+						<li><a href="#">联系我们</li>
+						<li><a href="#">网站合作</li>
+						<li><a href="#">法律声明及隐私权政策</li>
+						<li><a href="#">知识产权</li>
+						<li><a href="#">廉政举报</li>
+					</ul>
+					</div>
+					
+				</div>
+				<div id="second">
+					<div id="claim2">
+						<ul>
+						<li><a href="#">阿里巴巴集团</li>
+						<li><a href="#">淘宝网</li>
+						<li><a href="#">天猫</li>
+						<li><a href="#">聚划算</li>
+						<li><a href="#">全球速卖通</li>
+						<li><a href="#">阿里巴巴国际交易市场</li>
+						<li><a href="#">1688</li>
+						<li><a href="#">阿里妈妈</li>
+						<li><a href="#">飞猪</li>
+						<li><a href="#">阿里云计算</li>
+						<li><a href="#">YunOS</li>
+						<li><a href="#">阿里通信</li>
+						<li><a href="#">万网</li>
+						<li><a href="#">高德</li>
+						<li><a href="#">UC</li>
+						<li><a href="#">友盟</li>
+						<li><a href="#">虾米</li>
+						<li><a href="#">阿里星球</li>
+						<li><a href="#">来往</li>
+						<li><a href="#">钉钉</li>
+						<li><a href="#">支付宝</li>
+					</ul>
+					</div>
+					
+					<div id="claim3">
+						<ul>
+						<li><a href="#">增值电信业务经营许可证：浙B2-20110446</li>
+						<li><a href="#">网络文化经营许可证：浙网文【2015】0295-065号 </li>
+						<li><a href="#">12318举报</li>
+						
+					</ul>
+					</div>
+					
+					
+					<div id="claim4">
+						<ul>
+						<li><a href="#">互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005</li>
+						<li><a href="#"><img src="img/blh/jh.png" />浙公网安备33010002000120 </li>
+						
+						
+					</ul>
+					</div>
+					
+					<div id="claim5">
+						<ul>
+						<li><p style="color: gray;">©2013-2017 TMALL.COM版权所有</p></li>
+											
+						
+					</ul>
+					</div>
+				</div>
+				<div id="third"></div>
+			<!--底部容器的结束-->	
+			</div>
+			
+		<!--整体容器的结束-->
+		</div>
+	</body>
+</html>

@@ -1,0 +1,407 @@
+#container{
+				width: 1349px;
+				height: 945px;
+				
+			}
+			#header{
+				width: 1349px;
+				height: 110px;
+				
+			}
+			#main{
+				width: 1349px;
+				height: 600px;
+				background-color: #A4212F;
+				
+			}
+			#footer{
+				width: 1349px;
+				height: 235px;
+				
+			}
+			#logo{
+				width: 206px;
+				height: 37px;
+				background-color: 9D151F;
+				margin-top:40px ;
+				
+				margin-left:70px ;
+				float: left;
+			}
+			
+				#content1{
+				width: 1349px;
+				height: 600px;
+				
+				margin-left:50px ;
+				float: left;
+				
+		      
+			}
+			
+			#content2{
+				width: 352px;
+				height: 409px;
+				background-color: white;
+				margin-top:92px ;
+				margin-right:225px ;
+				margin-bottom:49px ;
+				
+				float: right;
+				
+		      
+			}
+			#tubiaoC{
+				height: 63px;
+				width: 63px;
+				margin-top: 0px;
+				margin-right: 0px;
+				position: relative;
+			
+				float: right;
+				display: block;
+			}
+			#tubiaoZ{
+				height: 63px;
+				width: 63px;
+				margin-top: 0px;
+				margin-right: 0px;
+				position: relative;
+				
+				float: right;
+				display:none;
+				
+			}
+			#zhanghao{
+				height: 280px;
+				width: 352px;
+				margin-top: 0px;
+				 display: block;
+			
+			}
+			#code{
+				height: 263px;
+				width: 352px;
+				margin-top: 40px;
+			    display: none;
+				
+				
+				
+			
+			}
+			 
+			#first{
+				width: 1349px;
+				height: 79px;
+				
+			}
+			#second{
+				width: 1349px;
+				height: 98px;
+				
+			}
+			#third{
+				width: 1349px;
+				height: 58px;
+				
+			}
+			#claim1{
+				width: 800px;
+				height: 25px;
+			
+				margin-top:46px ;
+				
+				margin-left:45px ;
+				float: left;
+			}
+			#claim1 ul{
+				list-style: none;
+			}
+			#claim1 ul li{
+				float:left;
+				padding-left: 9px;
+			}
+			#claim1 ul li a:link{
+				color:black;
+			}
+			#claim1 ul li a:visited{
+				color: #000000;
+				font-size: 8px;
+				font-family:宋体 ;
+			}
+			#claim2{
+				width: 1349px;
+				height: 25px;
+			
+				margin-top:2px ;
+			
+				margin-left:45px ;
+				float: left;
+			}
+			#claim2 ul{
+				list-style: none;
+			}
+			#claim2 ul li{
+				float:left;
+				padding-left: 9px;
+			}
+			#claim2 ul li a:link{
+				color:black;
+			}
+			#claim2 ul li a:visited{
+				color: #000000;
+				font-size: 8px;
+				font-family:宋体 ;
+			}
+			#claim3{
+				width: 1349px;
+				height: 25px;
+			
+				margin-top:3px ;
+				
+				margin-left:22px ;
+				float: left;
+			}
+			#claim3 ul{
+				list-style: none;
+			}
+			#claim3 ul li{
+				float:left;
+				padding-left: 30px;
+			}
+			#claim3 ul li a:link{
+				color:gray;
+			}
+			#claim3 ul li a:visited{
+				color: gray;
+				font-size: 5px;
+				font-family:宋体 ;
+			}
+			
+			#claim4{
+				width: 1349px;
+				height: 25px;
+			
+				margin-top:5px ;
+				
+				margin-left:22px ;
+				float: left;
+			}
+			#claim4 ul{
+				list-style: none;
+			}
+			#claim4 ul li{
+				float:left;
+				padding-left: 30px;
+			}
+			#claim4 ul li a:link{
+				color:gray;
+			}
+			#claim4 ul li a:visited{
+				color: gray;
+				font-size: 5px;
+				font-family:宋体 ;
+			}
+			#claim5{
+				width: 1349px;
+				height: 25px;
+			
+				margin-top:7px ;
+				
+				margin-left:22px ;
+				float: left;
+			}
+			#claim5 ul{
+				list-style: none;
+			}
+			#claim5 ul li{
+				float:left;
+				padding-left: 30px;
+			
+			}
+			#code b{
+				
+				font-size: 16px;
+				padding-left: 23px;
+				color: #3C3C3C;
+				
+			}
+			#zhanghao b{
+				
+				font-size: 16px;
+				padding-left: 23px;
+				color: #3C3C3C;
+				
+			}
+			#codet{
+				height:127px;
+				width:127px ;
+				margin-top:30px ;
+				margin-left:113px ;
+				float: left;
+			}
+			#final{
+				width: 352px;
+				height: 25px;
+				
+				margin-top: 10px;
+			    position: relative;
+				float: right;
+			}
+		
+			#final ul{
+				position: absolute;
+				right: 0;
+			}
+			#final ul li{
+				display: inline-block;
+				padding-left: 5px;
+				margin-right: 20px;
+				text-decoration: none;
+				color: gray;
+				
+			}
+			#final ul li a{
+				display: inline-block;
+				padding-right: 10px;
+				margin-bottom:0px;
+				color: gray;
+			}
+		
+			#final ul li a:hover{
+				text-decoration: none;
+				color: red;
+			}
+			#a{
+				height:49px;
+				width: 192px;
+				margin-left: 78px;
+				margin-top: 180px;
+			}
+			#tishi{
+				height: 52px;
+				width: 150px;
+				margin-left:140px ;
+				margin-top:0px ;
+			}
+         #last{
+				width: 352px;
+				height: 25px;
+				
+				margin-top: 0px;
+			    position: relative;
+				float: right;
+			}
+            #last ul{
+				position: absolute;
+				right: 0;
+			}
+			#last ul li{
+				display: inline-block;
+				padding-left: 5px;
+				margin-right: 20px;
+				text-decoration: none;
+				color: gray;
+				
+			}
+			#last ul li a{
+				display: inline-block;
+				padding-right: 10px;
+				margin-bottom:0px;
+				color: gray;
+			}
+		
+			#last ul li a:hover{
+				text-decoration: none;
+				color: red;
+			}
+			#zhanghaoBG{
+				height:227px;
+				width:300px ;
+				margin-top:15px ;
+				margin-right:26px ;
+				margin-left:26px ;
+				
+				float: left;
+			}
+			 .ZH{
+           	 padding: 10px;
+           	 border: 1px solid #999;   
+           	  
+           }
+         #yhxiaobiao{
+           	height: 41PX;
+           	width: 41px;
+            float:left;
+            margin-top: 0px;
+          	margin-left: 0px;
+          
+          	
+       
+           }
+            
+         #mmxiaobiao{
+           	height: 41PX;
+           	width: 41px;
+          	float: left;
+          	margin-top: 0px;
+          	margin-left: 0px;
+          	
+          	
+          	
+           }
+           
+         #MMSR{
+           	height: 41PX;
+           	width: 285px;
+           	margin-top: 0px;
+            margin-left: 41px;
+          
+           
+           }
+           
+          #YHSR{
+           	height: 41PX;
+           	width: 285px;
+           
+           	margin-top: 0px;
+            margin-left: 41px;
+           }
+          #denglu {
+           	height: 41PX;
+           	width: 300px;
+           	margin-top: 30px;
+            margin-left: 6px;
+           }
+           
+        .ZH{
+             padding: 10px;
+           	 
+           	 
+           }
+      #shang{
+      	 height: 41px;
+      	 width: 235px;
+      	 float: left;
+      	 margin-left: 30px;
+      	 margin-top: 10px;
+      	 
+      }
+     
+       #xia{
+       	 height: 41px;
+      	 width: 235px;
+      
+      	 margin-left: 30px;
+      	 margin-top: 80px;
+      	 
+       }
+      .pass{
+      	
+      }
+
+
+#span1,#span2{
+			color: red;
+			font: "微软雅黑" 10px;
+		   }

@@ -1,0 +1,175 @@
+#header .container{
+    width: 85%;
+}
+#div-search {
+    width: 100%;
+    height: 100px;
+
+    /* 用于定位 */
+    position: relative;
+}
+#div-introduction{
+    width: 100%;
+    height: 160px;
+}
+#div-search .logo{
+    position: absolute;
+    top: 26px;
+    left: 0;
+}
+#div-search .search{
+    position: absolute;
+    left: 290px;
+    top: 22px;
+}
+/* 搜索框制作  */
+#div-search .search .inputs .box1{
+    float: left;
+    border: 3px solid #ff0036;
+}
+#div-search .search .inputs .box1 input{
+    width: 550px;
+    height: 40px;
+}
+#div-search .search .inputs .box2{
+    float: left;
+    border: 3px solid #ff0036;
+
+}
+#div-search .search .inputs .box2 input{
+    width: 100px;
+    height: 40px;
+
+    border: 3px solid #ff0036;
+
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff0036;
+}
+/*  搜索框 字体 设置 */
+#div-search .search .keyword span{
+    color: rgba(179, 179, 179, 0.81);
+    font-size: 12px;
+    margin-left: 9px;
+    margin-right: 4px;
+}
+#div-search .search .keyword a{
+    font-size: 13px;
+    color: #999999;
+}
+/* ad 广告*/
+#div-search .ad {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*<!--介绍栏目  160px  -->*/
+#div-introduction{
+    background: url("../../img/zxd-goods/header/TB1bexQtbX.jpg") no-repeat center;
+
+}
+#div-introduction .container{
+    width: 85%;
+    height: 100%;
+    /* 定位用*/
+    position: relative;
+}
+#div-introduction .left {
+    width:260px;
+    height: 100px;
+    /* 定位*/
+    position: absolute;
+    left: 0;
+    top:25px;
+    background-color: rgba(136,102,85,.8);
+    box-shadow: 0 0 30px #000000;
+}
+#div-introduction .left .logo{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -9px;
+    left: 3px;
+    background-color: white;
+
+    border-radius: 6px;
+    box-shadow: 0 0 50px #888888;
+}
+#div-introduction .left .logo img{
+    position: absolute;
+    top:36px;
+    left: 15px;
+}
+#div-introduction .left .home {
+    position: absolute;
+    right: 22px;
+    top: 30px;
+}
+#div-introduction .left .home img{
+    position: absolute;
+    right: 38px;
+    top: 0px;
+}
+#div-introduction .left .home span{
+    color: white;
+    font-size: 10px;
+}
+#div-introduction .intro {
+    height: 140px;
+    width: 290px;
+    /* 定位*/
+    position: absolute;
+    right:0;
+    top: 10px;
+    background-color: rgba(0,0,0,.3);
+}
+#div-introduction .intro h4{
+    color: white;
+    text-align: center;
+    margin-bottom: 14px;
+    margin-top: 13px;
+}
+#div-introduction .intro h4:before{
+    content: "";
+    width: 30px;
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+    top: 22px;
+    left: 75px;
+}
+#div-introduction .intro h4:after{
+    content: "";
+    width: 33px;
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+    top: 22px;
+    right: 71px;
+}
+/* 视觉 错误  */
+#div-introduction .intro p{
+    color: white;
+    font-size: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

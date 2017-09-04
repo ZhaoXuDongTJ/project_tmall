@@ -1,0 +1,248 @@
+#containerX{
+	width: 1349px;
+	height: 12000px;
+	
+}
+#headerX{
+	width: 1349px;
+	height: 265px;
+
+}
+
+
+
+#oneH{
+	width: 1349px;
+	height: 29px;
+	background-color: gainsboro;
+}
+
+#twoH{
+	width: 1349px;
+	height: 87px;
+	
+	
+}
+
+
+#intwoH1{
+	height: 32px;
+	width: 150px;
+	float: left;
+	margin-left: -280px;
+	margin-top: 20px;
+	
+}
+#intwoH2{
+	height: 75px;
+	width: 293px;
+	float: left;
+	margin-left: -90px;
+	margin-top: 12px;
+   
+}
+#intwoH3{
+	height: 72px;
+	width: 85px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 15px;
+	
+}
+#XLshop{
+	height: 334px;
+	width: 297px;
+	margin-left: 290px;
+	float: left;
+	z-index:10 ;
+	margin-top:0px;
+	position: fixed;
+	display: none;
+}
+#XLcode{
+	height: 179px;
+	width: 163px;
+	margin-left: 585px;
+	float: left;
+	
+	position: fixed;
+	display: none;
+}
+#intwoH4{
+	height: 37px;
+	width: 400px;
+	float: left;
+	
+	background-color:red ;	
+	border:3px solid red ;
+}
+#intwoH5{
+	height: 37px;
+	width: 90px;
+	float: left;
+	margin-left: 8px;
+	
+	background-color:black;	
+	
+}
+#header-right{
+	
+	height:70px;
+	width: 505px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 15px;
+
+
+	
+}
+#header-right a:link{
+	  color:darkgrey;
+	  font-size: 12px;
+}
+#header-right a:visited{
+	
+	color:darkgrey;
+	
+
+}
+
+#sep{
+			margin-left:6px;
+			margin-right: 3px;
+			color: darkgrey;
+	}
+
+#threeH{
+	width: 1349px;
+	height: 28px;
+
+	border:1px solid gainsboro;
+}
+
+#inthreeH1{
+	width: 400px;
+	height:20px;
+	
+	margin-top:4px ;
+	margin-left:200px ;
+	
+	
+	
+}
+#inthreeH1 a:link{
+	padding-left: 20px;
+	color:gray;
+	font-size: 10px;
+	text-decoration: none;
+}
+#inthreeH1 a:visited{
+	
+	color:gray;
+	
+
+}
+#inthreeH1 a:hover{
+	
+	color:black;
+	
+}
+
+
+#inthreeH2{
+	width: 300px;
+	height:20px;
+	
+	margin-top:-21px ;
+	margin-left:950px ;
+	
+	
+}
+#inthreeH2 a:link{
+	padding-left: 20px;
+	color:gray;
+	font-size: 12px;
+	text-decoration: none;
+}
+#inthreeH2 a:visited{
+	
+	color:gray;
+	
+
+}
+
+#inthreeH2 a:hover{
+	
+	color:black;
+	
+
+}
+
+#fourH{
+	width: 1349px;
+	height:121px;
+
+}
+#infourH1{
+	height: 67px;
+	width: 330px;
+	margin-left:162px ;
+}
+#infourH2{
+	height: 40px;
+	width: 1100px;
+	margin-left:162px ;
+	margin-top:15px ;
+
+}
+
+
+
+#infourH2 a:link{
+	padding-left: 30px;
+	color:gray;
+	font-size: 15px;
+	text-decoration: none;
+}
+#infourH2  a:visited{
+	
+	color:gray;
+	
+
+}
+
+#infourH2 a:hover{
+	
+	color:black;
+
+}
+
+#shouye{
+	height: 30px;
+	width: 70px;
+	margin-left:12px ;
+	margin-top:15px ;
+	border:1px solid gainsboro ;
+	border-radius: 10px;
+
+}
+
+#allgoods{
+	height: 30px;
+	width: 100px;
+	margin-left:100px ;
+	margin-top:-20px ;
+	border:1px solid gainsboro;
+	border-radius: 10px;
+	
+}
+#other{
+	height: 30px;
+	width: 1200px;
+	margin-left:200px ;
+	margin-top:-30px ;
+	
+
+
+}
+

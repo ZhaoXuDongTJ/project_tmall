@@ -1,0 +1,94 @@
+
+#header{
+    height: 130px;
+}
+#header .container{
+    width: 85%;
+    position: relative;
+}
+/*  h-logo  */
+#h-logo{
+    height: 130px;
+    float: left;
+
+    position: relative;
+    left: -45px;
+}
+#h-logo img{
+    height: 130px;
+}
+
+    /*  h-search  */
+#h-search{
+    float: left;
+    width: 700px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#h-search .container{
+    width: 100%;
+}
+#h-search .up{
+    height: 36px;
+    position: relative;
+}
+#h-search .up form{
+    width: 800px;
+}
+#h-search .up form input[type="search"]{
+    width: 550px;
+    height: 36px;
+}
+#h-search .up form .aside label{
+    position: absolute;
+    left: 8px;
+    top: 0px;
+    font-size: 17px;
+    line-height: 37px;
+    color: #8b8b8b;
+    visibility: visible;
+}
+
+#h-search .up form .aside{
+    display: inline-block;
+}
+#h-search .up form input{
+    float: right;
+    border: 1px solid #ff0036;
+}
+#h-search .up form input[type="button"]{
+    color: white;
+    width: 132px;
+    height: 36px;
+    background-color:#ff0036 ;
+    font-size:18px;
+    font-weight:700;
+    letter-spacing: 5px;
+    cursor: pointer;
+
+    margin-left: -5px;
+
+}
+#h-search .down{
+    margin-top: 10px;
+    height: 22px;
+}
+#h-search .down p a{
+    color: #8b8b8b;
+}
+#h-search .down p span{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 7px;
+    color: #8b8b8b;
+}
+#h-search .down p a:nth-child(3n+1){
+    color: red;
+}
+
+
+

@@ -1,0 +1,108 @@
+#site-nav{
+    background-color: blue;
+    height: 32px;
+}
+#site-nav .container {
+    background-color: #1dff07;
+}
+#nav-log{
+    background-color: #aea94a;
+}
+
+#nav-pri{
+    width: 700px;
+    background-color: goldenrod;
+}
+
+/*header*/
+
+
+/*content  主体部分*/
+#content{
+    background-color: #333333;
+    /*height:5000px;*/
+}
+
+/*Ⅰ c-nav*/
+.content-out-nav{
+    background-color: red;
+}
+.content-out-nav .container{
+    width: 85%;
+    /*background-color: #86ff64;*/
+}
+/*<!-- Ⅱ c-carousel -->*/
+.content-out-carousel{
+    /*background-color: #3dae3e;*/
+}
+.content-out-carousel .container{
+    /*background-color: #cb1f33;*/
+}
+/*c-carousel   c-carouse2*/
+
+#c-carouse2{
+    background-color: #ff11a5;
+}
+
+
+/*<!--  container3 -->*/
+#content .container3{
+    height:5000px;
+    background-color: #d7ff0d;
+}
+#c-shop-nav {
+    background-color: #474c85;
+}
+#cs-video{
+    background-color: #4cae4c;
+}
+#video-live{
+    background-color: #ae1d15;
+}
+
+
+/*  #cs-pay  */
+#cs-pay{
+    background-color: #ffe176;
+    z-index: 88;
+}
+
+/*脚*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

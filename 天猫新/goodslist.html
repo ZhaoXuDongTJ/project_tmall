@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>veromode</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+    </style>
+    <!--测试代码-->
+    <link rel="stylesheet" href="css/zxd-goods/text.css">
+    <!-- 正经代码 -->
+    <link rel="stylesheet" href="css/zxd/site-nav.css">
+    <link rel="stylesheet" href="css/zxd-goods/header.css">
+    <link rel="stylesheet" href="css/zxd/footer.css">
+
+    <link rel="stylesheet" href="css/zxd-goods/content.css">
+    <!-- jQuery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<!--  site-nav  2-->
+<div id="site-nav">
+    <!-- container -->
+    <div class="container">
+        <!--  nav-log  -->
+        <div id="nav-log">
+            <ul>
+                <li>
+                    <img src="img/zxd-goods/header/zhuye.png" height="12px">
+                    <a href="homepage.html">天猫首页</a>
+                </li>
+                <li>喵，欢迎来天猫</li>
+                <li><a href="#">请登录</a></li>
+                <li><a href="register.html">免费注册</a></li>
+            </ul>
+        </div>
+        <!--  nav-pri  -->
+        <div id="nav-pri">
+            <ul>
+                <li id="nav-private1" class="pri">
+                    <div class="items-nav">
+                        <span>我的淘宝</span>
+                        <span class="pri-i">
+                            <img class="pri-i-img" src="img/zxd/header/up-delta.png" alt="">
+                        </span>
+                    </div>
+                    <div class="pull-down">
+                        <a href="#" style="color: #666">已买到的宝贝</a>
+                        <a href="#" style="color: #666">已卖出的宝贝</a>
+                    </div>
+                </li>
+                <li id="nav-private3">
+                    <div>
+                        <span class="icon">
+                            <img src="img/zxd/site-nav/h.png" height="12px">
+                        </span>
+                        我关注的品牌
+                    </div>
+                </li>
+                <li id="nav-private4">
+                    <div>
+                        <span class="icon">
+                            <img src="img/zxd/site-nav/car.png" height="12px">
+                        </span>
+                        购物车0件
+                    </div>
+                </li>
+                <li id="nav-private5" class="pri">
+                    <div class="items-nav">
+                        <span>收藏夹</span>
+                        <span class="pri-i">
+                            <img class="pri-i-img" src="img/zxd/header/up-delta.png" alt="">
+                        </span>
+                    </div>
+                    <div class="pull-down">
+                        <a href="#" style="color: #666">收藏的宝贝</a>
+                        <a href="#" style="color: #666">收藏的店铺</a>
+                    </div>
+                </li>
+                <li id="nav-private2"><span>|</span></li>
+                <li id="nav-private6" class="pri">
+                    <div>
+                        <img src="img/zxd/site-nav/mob.png" height="12px">
+                        <span>手机版</span><span class="pri-i"></span></div>
+                    <div class="private6-img"></div>
+                </li>
+                <li id="nav-private7">
+                    <div>淘宝网</div>
+                </li>
+                <li id="nav-private8" class="pri">
+                    <div>
+                        <span>商家支持</span>
+                        <span class="pri-i">
+                            <img class="pri-i-img" src="img/zxd/header/up-delta.png" height="12px">
+                        </span>
+                    </div>
+
+                    <div class="pull-down">
+                        <div class="box1">
+                            <ul>
+                                <li>商家：</li>
+                                <br>
+                                <li>商家中心</li>
+                                <li>商家入驻</li>
+                                <li>运营服务</li>
+                                <li>商家品控</li>
+                                <li>商家工具</li>
+                                <li>商家规则</li>
+                                <li>天猫智库</li>
+                                <li>喵言喵语</li>
+                            </ul>
+                        </div>
+                        <div></div>
+                        <div class="box2">
+                            <ul>
+                                <li>帮助：</li>
+                                <br>
+                                <li>帮助中心</li>
+                                <li>问商友</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li id="nav-private9" class="pri">
+                    <div class="sn-menu">
+                        <div>
+                            <div style="display: inline-block;height: 32px">
+                                <img src="img/zxd/site-nav/vav.png" alt="" height="12px">
+                            </div>
+                            <span>网站导航</span>
+                            <span class="pri-i">
+                                <img class="pri-i-img" src="img/zxd/header/up-delta.png" alt="">
+                            </span>
+                        </div>
+
+                        <div class="pull-down">
+                            <div class="box1">
+                                <p>
+                                    热点推荐<span>Hot</span>
+                                </p>
+                                <ul class="site-list">
+                                    <li><a href="#">天猫超市</a></li>
+                                    <li><a href="#">喵鲜生</a></li>
+                                    <li><a href="#">科技新品 </a></li>
+                                    <li><a href="#">女装新品 </a></li>
+                                    <li><a href="#">酷玩街</a></li>
+                                    <li><a href="#">内衣新品 </a></li>
+                                    <li><a href="#">试美妆</a></li>
+                                    <li><a href="#">运动新品</a></li>
+                                    <li><a href="#">时尚先生 </a></li>
+                                    <li><a href="#">精明妈咪</a></li>
+                                    <li><a href="#">吃乐会 </a></li>
+                                    <li><a href="#">企业采购</a></li>
+                                    <li><a href="#">会员积分</a></li>
+                                    <li><a href="#">天猫国际</a></li>
+                                </ul>
+                            </div>
+                            <div></div>
+                            <div class="box2">
+                                <p>
+                                    行业市场<span>Market</span>
+                                </p>
+                                <ul class="site-list">
+                                    <li><a href="#">美妆</a></li>
+                                    <li><a href="#">电器</a></li>
+                                    <li><a href="#">女装 </a></li>
+                                    <li><a href="#">男装 </a></li>
+                                    <li><a href="#">女鞋</a></li>
+                                    <li><a href="#">男鞋</a></li>
+                                    <li><a href="#">内衣 </a></li>
+                                    <li><a href="#">箱包</a></li>
+                                    <li><a href="#">运动</a></li>
+                                    <li><a href="#">母婴</a></li>
+                                    <li><a href="#">家装</a></li>
+                                    <li><a href="#">医药</a></li>
+                                    <li><a href="#">食品</a></li>
+                                    <li><a href="#">配饰</a></li>
+                                    <li><a href="#">汽车</a></li>
+                                </ul>
+                            </div>
+                            <div class="box3">
+                                <p>
+                                    品牌风尚<span>Brand</span>
+                                </p>
+                                <ul class="site-list">
+                                    <li><a href="#">尚天猫</a></li>
+                                    <li><a href="#">大牌街</a></li>
+                                    <li><a href="#">潮牌街</a></li>
+                                    <li><a href="#">天猫原创</a></li>
+                                    <li><a href="#">什么牌子好</a></li>
+                                </ul>
+                            </div>
+                            <div class="box4">
+                                <p>
+                                    服务指南<span>Help</span>
+                                </p>
+                                <ul class="site-list">
+                                    <li><a href="#">帮助中心 </a></li>
+                                    <li><a href="#">品质保障 </a></li>
+                                    <li><a href="#">特色服务 </a></li>
+                                    <li><a href="#">7天退换货 </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- container end-->
+</div>
+<!--  site-nav  end-->
+<!-- header 2部分-->
+<div id="header">
+    <div class="container">
+        <!--搜索栏-->
+       <div id="div-search">
+            <div class="logo">
+                <a href="homepage.html"><img src="img/zxd-goods/header/logo532.png" width="190px" ></a>
+            </div>
+            <div class="search">
+                <div class="inputs">
+                    <div class="box1">
+                        <input type="search">
+                    </div>
+                    <div class="box2">
+                        <input type="button" value="搜索">
+                    </div>
+                </div>
+                <div class="wall"></div>
+                <div class="keyword">
+                    <a href="商品详情.html">only</a><span>|</span>
+                    <a href="">vero moda连衣裙</a><span>|</span>
+                    <a href="">only女装</a><span>|</span>
+                    <a href="">欧时力</a><span>|</span>
+                    <a href="">five plus</a><span>|</span>
+                    <a href="">vero moda女装</a><span>|</span>
+                    <a href="">veromoda阔腿裤</a>
+                </div>
+            </div>
+            <div class="ad">
+                <img src="img/zxd-goods/header/TB1JY4zRp-380-160.jpg" width="190px" height="80px">
+            </div>
+        </div>
+    </div>
+    <!--介绍栏目-->
+    <div id="div-introduction">
+        <!--外面图片大 所以重新放一个地方 再加一个容器-->
+        <div class="container">
+            <div class="left">
+                <div class="logo">
+                    <a href="商品详情.html"><img src="img/zxd-goods/header/TB1Svn6RV.jpg" width="90px" height="45px"></a>
+                </div>
+                <div class="home">
+                    <img src="img/zxd-goods/header/T1X-25-60.png" alt="" width="25px" height="25px"><br>
+                    <span>veromoda官方旗舰店</span>
+                </div>
+            </div>
+            <div class="intro">
+                <h4 class="up">品牌介绍</h4>
+                <p>VERO MODA，源自欧洲丹麦，著名时装公司BESTSELLER旗下的经典女装品牌，遍布全球45个国家。NORMAL都市休闲、CLASSIC都市经典两大产品系列带给现代女性不一样的穿着体验。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- content -->
+<div id="content">
+    <div class="container">
+        <!--lists-->
+        <div class="lists">
+            <div class="left">
+                <div class="words1">全部</div>
+                <div class="fu_hao">
+                    <img src="img/zxd-goods/content/0822182134.png" alt="">
+                </div>
+                <div class="select">
+                    <span class="words2">品牌:Vero Moda</span>
+                    <a href="#"><img src="img/zxd-goods/content/cha.png" width="8px" height="8px"></a>
+                </div>
+                <div class="fu_hao">
+                    <img src="img/zxd-goods/content/0822182134.png" alt="">
+                </div>
+                <div class="search" style="position: relative">
+                    <input type="search" placeholder="veromoda">
+                    <a href="#"><img src="img/zxd-goods/content/fang.png" alt=""></a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="img/zxd-goods/content/2182119.png" alt="">
+            </div>
+        </div>
+        <!-- 列表 -->
+        <div class="brand1" style="position: relative">
+            <div class="li1">
+                
+                    <img src="img/zxd-goods/content/rightsan.png" alt="">
+                    <span>分类</span>
+
+            </div>
+            <div class="li2">
+                 <div class="left">
+                     <ul>
+                         <li><a href="#">品牌女装</a></li>
+                         <li><a href="#">女T恤</a></li>
+                         <li><a href="#">T恤</a></li>
+                         <li><a href="#">服饰配件</a></li>
+                         <li><a href="#">品牌箱包</a></li>
+                         <li><a href="#">时尚女鞋</a></li>
+                         <li class="li-xuan"><a href="#">饰品</a></li>
+                         <li class="li-xuan"><a href="#">女士内衣</a></li>
+                         <li class="li-xuan"><a href="#">居家布艺</a></li>
+                         <li class="li-xuan"><a href="#">收纳</a></li>
+                     </ul>
+                 </div>
+                <div class="up" id="c-up">
+                    <span id="c-up-word">更多</span>
+                    <img id="c-up-img" src="img/zxd-goods/content/xia.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="brand2">
+            <div id="fixed-nav" style="position: relative">
+                <div class="left">
+                    <div class="box1">
+                        <ul>
+                            <li><a href="#"><span>综合</span><img class="fixed-nav-img1" src="img/zxd-goods/fixed/row-red.png"><img class="fixed-nav-img2" src="img/zxd-goods/fixed/row-black.png"></a></li>
+                            <li><a href="#"><span>人气</span><img class="fixed-nav-img1" src="img/zxd-goods/fixed/row-red.png"><img class="fixed-nav-img2" src="img/zxd-goods/fixed/row-black.png"></a></li>
+                            <li><a href="#"><span>新品</span><img class="fixed-nav-img1" src="img/zxd-goods/fixed/row-red.png"><img class="fixed-nav-img2" src="img/zxd-goods/fixed/row-black.png"></a></li>
+                            <li><a href="#"><span>销量</span><img class="fixed-nav-img1" src="img/zxd-goods/fixed/row-red.png"><img class="fixed-nav-img2" src="img/zxd-goods/fixed/row-black.png"></a></li>
+                            <li><a href="#"><span>价格</span><img class="fixed-nav-img1" src="img/zxd-goods/fixed/row-red.png"><img class="fixed-nav-img2" src="img/zxd-goods/fixed/row-black.png"></a></li>
+                        </ul>
+                    </div>
+                    <div class="box2">
+                        <ul>
+                            <li>
+                                <span class="box2-s1">收货地：</span>
+                                <span id="box2-s2">天津</span>
+                                <img src="img/zxd-goods/fixed/san.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box3">
+                        <ul>
+                            <li><input id="box3-ul-txt-1" type="text" placeholder="￥请输入"></li>
+                            <li><span>-</span></li>
+                            <li><input id="box3-ul-txt-2" type="text" placeholder="￥请输入"></li>
+                        </ul>
+                        <ul class="box3-ul-button">
+                            <li><button id="box3-ul-button-1">确定</button></li>
+                            <li><button id="box3-ul-button-2">清除</button></li>
+                        </ul>
+                    </div>
+                    <div class="box4">
+                        <div class="left">
+                            <ul>
+                                <li class="box4-left-li1"><input type="checkbox">新到商品</li>
+                                <li class="box4-left-li1"><input type="checkbox">包邮</li>
+                                <li class="box4-left-li1"><input type="checkbox">折扣</li>
+                                <li class="box4-left-li2"><input type="checkbox">搭配减价</li>
+                                <li class="box4-left-li2"><input type="checkbox">满就减</li>
+                                <li class="box4-left-li2"><input type="checkbox">货到付款</li>
+                            </ul>
+                        </div>
+                        <div class="box4-right-button" id="box4-right-button">
+                            <span id="box4-right-span1">收起</span>
+                            <img  id="box4-right-img1" src="img/zxd-goods/fixed/xia.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box5">
+                        <ul>
+                            <li id="box5-li-1">
+                                <img class="box5-img-1" src="img/zxd-goods/fixed/n/d1.png">
+                                <img class="box5-img-2" src="img/zxd-goods/fixed/n/d2.png">
+                                <span class="box5-span1">店铺</span>
+                            </li>
+                            <li id="box5-li-2">
+                                <img class="box5-img-1" src="img/zxd-goods/fixed/n/b1.png">
+                                <img class="box5-img-2" src="img/zxd-goods/fixed/n/b2.png">
+                                <span class="box5-span1">大图</span>
+                            </li>
+                            <li id="box5-li-3">
+                                <img class="box5-img-1" src="img/zxd-goods/fixed/n/x1.png">
+                                <img class="box5-img-2" src="img/zxd-goods/fixed/n/x2.png">
+                                <span class="box5-span1">小图</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <span>1/50</span>
+                    <span class="ri-s1"><</span>
+                    <span class="ri-s1">></span>
+                </div>
+            </div>
+        </div>
+
+        <!--  内容  -->
+        <div class="container-in">
+            <div class="line">
+                <ul>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <a href="商品详情.html"><img id="shops-pic-l1-img1" src="img/zxd-goods/goodlists/TB2cZOKaWa5V757.jpg_b.jpg" width="220px" height="210px"></a>
+                                <div>
+                                    <img id="shops-pic-l1-img2" src="img/zxd-goods/goodlists/TB2cZOKaWa5V757.jpg_b.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                        <p><span>￥</span>799.00</p>
+                                        <p><a href="商品详情.html" style="color: black">Vero Moda2017冬季新款A摆连衣裙</a></p>
+                                        <p><a href="#">veromoda官方旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>2000笔</span></a>
+                                    <a>评价 <span>500</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l2-img1" src="img/zxd-goods/goodlists/TB1dZL.jpg" width="220px" height="210px">
+                                <div>
+                                    <img id="shops-pic-l2-img2" src="img/zxd-goods/goodlists/TB1dZL.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>299.00</p>
+                                    <p><a>VeroModa梯形领九分款针织</a></p>
+                                    <p><a href="#">veromoda旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>2100笔</span></a>
+                                    <a>评价 <span>510</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l3-img1" src="img/zxd-goods/goodlists/TB1yDIwXhsIL1JjSZs.jpg" width="220px" height="210px">
+                                <img id="shops-pic-l3-img1-1" src="img/zxd-goods/goodlists/TB27NyZaF6AQe.jpg" width="220px" height="210px">
+                                <img id="shops-pic-l3-img1-2" src="img/zxd-goods/goodlists/TB2YLyMaWi5V1Bj.jpg" width="220px" height="210px">
+                                <p id="div-shops-pic-l3-img2" style="width: 110px;" >
+                                    <span><img id="shops-pic-l3-img2" src="img/zxd-goods/goodlists/TB1yDIwXhsIL1JjSZs.jpg" width="30px" height="30px"></span>
+                                    <span><img id="shops-pic-l3-img2-1" src="img/zxd-goods/goodlists/TB27NyZaF6AQe.jpg" width="30px" height="30px"></span>
+                                    <span><img id="shops-pic-l3-img2-2" src="img/zxd-goods/goodlists/TB2YLyMaWi5V1Bj.jpg" width="30px" height="30px"></span>
+                                </p>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>219.00</p>
+                                    <p><a>vero moda秋身牛仔裤</a></p>
+                                    <p><a href="#">veromoda官方</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>453笔</span></a>
+                                    <a>评价 <span>860</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l4-img1" src="img/zxd-goods/goodlists/TB1VqZtSFXXXXbmXVXXXXXXXXXX_!!0-item_pic.jpg_b.jpg" width="220px" height="210px">
+                                <div>
+                                    <img id="shops-pic-l4-img2" src="img/zxd-goods/goodlists/TB1VqZtSFXXXXbmXVXXXXXXXXXX_!!0-item_pic.jpg_b.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>699.00</p>
+                                    <p><a>vero moda秋季七分袖印花连衣裙</a></p>
+                                    <p><a href="#">veromoda官方旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>13笔</span></a>
+                                    <a>评价 <span>2</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l5-img1" src="img/zxd-goods/goodlists/TB2JCuhad7757.jpg_b.jpg" width="220px" height="210px">
+                                <div>
+                                    <img id="shops-pic-l5-img2" src="img/zxd-goods/goodlists/TB2JCuhad7757.jpg_b.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>199.00</p>
+                                    <p><a>vero 2017秋季新款棉弹修身九</a></p>
+                                    <p><a href="#">veromoda官方旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>540笔</span></a>
+                                    <a>评价 <span>300</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l6-img1" src="img/zxd-goods/goodlists/TB2JCuhad7757.jpg_b.jpg" width="220px" height="210px">
+                                <div>
+                                    <img id="shops-pic-l6-img2" src="img/zxd-goods/goodlists/TB2JCuhad7757.jpg_b.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>149.00</p>
+                                    <p><a>vero moda秋季修身牛仔裤</a></p>
+                                    <p><a href="#">veromoda官方旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>2000笔</span></a>
+                                    <a>评价 <span>500</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l7-img1" src="img/zxd-goods/goodlists/TB2kttz757.jpg_b.jpg" width="220px" height="210px">
+                                <div>
+                                    <img id="shops-pic-l7-img2" src="img/zxd-goods/goodlists/TB2kttz757.jpg_b.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>189.00</p>
+                                    <p><a>vero moda秋季修身牛仔裤</a></p>
+                                    <p><a href="#">veromoda官方旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>2000笔</span></a>
+                                    <a>评价 <span>500</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l8-img1" src="img/zxd-goods/goodlists/TB2YLyMaWi5V1Bj.jpg" width="220px" height="210px">
+                                <div>
+                                    <img id="shops-pic-l8-img2" src="img/zxd-goods/goodlists/TB2YLyMaWi5V1Bj.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>191.00</p>
+                                    <p><a>vero moda秋季修身牛仔裤</a></p>
+                                    <p><a href="#">veromoda官方旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>2000笔</span></a>
+                                    <a>评价 <span>500</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l9-img1" src="img/zxd-goods/goodlists/TB27NyZaF6AQe.jpg" width="220px" height="210px">
+                                <div>
+                                    <img id="shops-pic-l9-img2" src="img/zxd-goods/goodlists/TB27NyZaF6AQe.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>229.00</p>
+                                    <p><a>vero moda秋季修身牛仔裤</a></p>
+                                    <p><a href="#">veromoda官方旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>2000笔</span></a>
+                                    <a>评价 <span>500</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="shops">
+                            <div class="shops-pic">
+                                <img id="shops-pic-l10-img1" src="img/zxd-goods/goodlists/TB29YmCaH1.jpg" width="220px" height="210px">
+                                <div>
+                                    <img id="shops-pic-l10-img2" src="img/zxd-goods/goodlists/TB29YmCaH1.jpg" width="30px" height="30px">
+                                </div>
+                            </div>
+
+                            <div class="intro">
+                                <div class="intro-price">
+                                    <p><span>￥</span>199.00</p>
+                                    <p><a>vero moda秋季修身牛仔裤</a></p>
+                                    <p><a href="#">veromoda官方旗舰店</a></p>
+                                </div>
+                                <div class="intro-wan">
+                                    <a>月成交 <span>2000笔</span></a>
+                                    <a>评价 <span>500</span></a>
+                                    <a><img src="img/zxd-goods/goodlists/logo.png" width="16px" height="16px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 页脚 -->
+        <div class="cut-off"></div>
+        <div class="page-number">
+            <div class="container2">
+                <a class="a1"><<上一页</a>
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <span>...</span>
+                <a class="a1">下一页>></a>
+                <b>共4页，到第</b>
+                <input type="text" value="1">
+                <b>页</b>
+                <input type="button" value="确定">
+            </div>
+        </div>
+
+        <div class="shi-fou">
+            <p class="p-shi-fou">
+                <span>您是不是想找</span>
+                <a href="#" class="box2">only</a><span>|</span>
+                <a href="#">veromoda连衣裙</a>  <span>|</span>
+                <a href="#">only女装</a>                      <span>|</span>
+                <a href="#">欧时力</a>                                      <span>|</span>
+                <a href="#">five plus</a>                                                 <span>|</span>
+                <a href="#">veromoda衬衫</a>                                                            <span>|</span>
+                <a href="#">vero moda女装</a>                                                                         <span>|</span>
+                <a href="#">veromoda阔腿裤</a>
+            </p>
+        </div>
+
+        <div class="search-out">
+            <div class="search">
+                <div class="inputs">
+                    <div class="box1">
+                        <input type="search">
+                    </div>
+                    <div class="box2">
+                        <input type="button" value="搜索">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fang-kui">
+            <p>喵~在此反馈您的意见和建议吧，<a href="#">立刻反馈</a></p>
+        </div>
+    </div>
+</div>
+<!-- footer  ok -->
+<!--  footer  -->
+<hr />
+<div id="footer">
+    <!--  foot-service  -->
+    <div id="foot-service">
+        <div class="container">
+            <!--ensure     OK  -->
+            <div id="ensure">
+                <img src="img/zxd/footer/TIM20170820153016.png" width="100%" height="100px" alt="">
+            </div>
+            <!--  guard  -->
+            <div id="guard">
+                <div class="container">
+                    <dl id="guard-ensure">
+                        <dt>
+                            <span>购物指南</span>
+                        </dt>
+                        <dd>
+                            <a href="#" target="_blank">免费注册</a>
+                            <a href="#" target="_blank">开通支付宝</a>
+                            <a href="#" target="_blank">支付宝充值</a>
+                        </dd>
+                    </dl>
+                    <dl id="guard-beginner">
+                        <dt>
+                            <span>天猫保障</span>
+                        </dt>
+                        <dd>
+                            <a href="#" target="_blank">发票保障</a>
+                            <a href="#" target="_blank">售后规则</a>
+                            <a href="#" target="_blank">缺货赔付</a>
+                        </dd>
+                    </dl>
+                    <dl id="guard-payment">
+                        <dt>
+                            <span>支付方式</span>
+                        </dt>
+                        <dd>
+                            <a href="#" target="_blank">快捷支付</a>
+                            <a href="#" target="_blank">信用卡</a>
+                            <a href="#" target="_blank">余额宝</a>
+                            <a href="#" target="_blank">蚂蚁花呗</a>
+                            <a href="#" target="_blank">货到付款</a>
+                        </dd>
+                    </dl>
+                    <dl id="guard-seller">
+                        <dt>
+                            <span>商家服务</span>
+                        </dt>
+                        <dd>
+                            <a href="#" target="_blank">商家入驻</a>
+                            <a href="#" target="_blank">商家中心</a>
+                            <a href="#" target="_blank">天猫智库</a>
+                            <a href="#" target="_blank">天猫规则</a>
+                            <a href="#" target="_blank">物流服务</a>
+                            <a href="#" target="_blank">喵言喵语</a>
+                            <a href="#" target="_blank">运营服务</a>
+                        </dd>
+                    </dl>
+                    <dl id="guard-mobile">
+                        <dt>
+                            <span>手机天猫</span>
+                        </dt>
+                        <dd>
+                            <a href="#" class="join"></a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="wall"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--  foot-copyright-->
+<div id="foot-copyright">
+    <div class="container" >
+
+        <p class="footer-main">
+            <a href="#" target="_blank">关于天猫</a>
+            <a href="#" target="_blank">帮助中心</a>
+            <a href="#" target="_blank">开放平台</a>
+            <a href="#" target="_blank">诚聘英才</a>
+            <a href="#" target="_blank">联系我们</a>
+            <a href="#" target="_blank">网站合作</a>
+            <a href="#" target="_blank">法律声明及隐私权政策</a>
+            <a href="#" target="_blank">知识产权</a>
+            <a href="#" target="_blank">廉正举报</a>
+            <a href="#" target="_blank">规则意见征集</a>
+        </p>
+
+        <p class="footer-other-link">
+            <a href="#" target="_blank">阿里巴巴集团</a><span>|</span>
+            <a href="#" target="_blank">淘宝网</a><span>|</span>
+            <a href="#" target="_blank">天猫</a><span>|</span>
+            <a href="#" target="_blank">聚划算</a><span>|</span>
+            <a href="#" target="_blank">全球速卖通</a><span>|</span>
+            <a href="#" target="_blank">阿里巴巴国际交易市场</a><span>|</span>
+            <a href="#" target="_blank">1688</a><span>|</span>
+            <a href="#" target="_blank">阿里妈妈</a><span>|</span>
+            <a href="#" target="_blank">飞猪</a><span>|</span>
+            <a href="#" target="_blank">阿里云计算</a><span>|</span>
+            <a href="#" target="_blank">YunOS</a><span>|</span>
+            <a href="#" target="_blank">阿里通信</a><span>|</span>
+            <a href="#" target="_blank">万网</a><span>|</span>
+            <a href="#" target="_blank">高德</a><span>|</span>
+            <a href="#" target="_blank">UC</a><span>|</span>
+            <a href="#" target="_blank">友盟</a><span>|</span>
+            <a href="#" target="_blank">虾米</a><span>|</span>
+            <a href="#" target="_blank">阿里星球</a><span>|</span>
+            <a href="#" target="_blank">来往</a><span>|</span>
+            <a href="#" target="_blank">钉钉</a><span>|</span>
+            <a href="#" target="_blank">支付宝</a>
+        </p>
+
+        <div class="main-copyright">
+            <span>增值电信业务经营许可证：</span>
+            <a href="#">浙B2-20110446</a>
+            <span>网络文化经营许可证：</span>
+            <a href="#" target="_blank">浙网文[2015]0295-065号</a>
+            <a href="#">12318举报</a>
+            <br>
+
+            <span>互联网药品信息服务资质证书编号：</span>
+            <a href="#">浙-（经营性）-2017-0005</a>
+            <a href="#"><img src="img/zxd/footer/TB1yEqRP-20-20.png">浙公网安备 33010002000120号</a>
+            <br>
+            <span class="need">© 2017-2017 ZHAO-XU-DONG版权所有</span>
+            <p class="footer-fp-img">
+                <a target="_blank" href="#"><img src="img/zxd/footer/TB1j5gtH73-30.jpg"></a>
+                <a target="_blank" href="#"><img src="img/zxd/footer/TB13mgzH-80-30.jpg"></a>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+<!--  footer  end-->
+
+<div id="right-nav">
+    <div class="main-list">
+        <ul>
+            <li><img src="img/zxd/aside/2017-08-22_104549.png" alt=""></li>
+            <li><a href="购物车.html"><img src="img/zxd/aside/2017-08-22_104646.png" alt=""></a></li>
+            <li><img src="img/zxd/aside/2017-08-22_104742.png" alt=""></li>
+        </ul>
+    </div>
+    <div class="footer-list">
+        <ul>
+            <li>
+                <div class="img">
+                    <img id="fix-img-s02" src="img/zxd/aside/2017-08-22_104759.png" alt="">
+                </div>
+                <div class="spans spans2" id="spans-s1">
+                    <span>用户反馈</span>
+                </div>
+            </li>
+            <li>
+                <div class="img">
+                    <img id="fix-img-s01" src="img/zxd/aside/2017-08-22_104808.png" alt="">
+                </div>
+                <div class="spans spans1" id="fix-img01">
+                    <div class="out" >
+                        <img src="img/zxd/aside/TB1uwIcRXXXXXXsaXXXXXXXXXXX-154-207.png" alt="">
+                        <img  src="img/zxd/aside/TB1GPVXRpXXXXXsapXXXXXXXXXX-175-175.jpg" alt="">
+                        <img src="img/zxd/aside/TB1tQeoOFXXXXbsXVXXwu0bFXXX.png" alt="">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="img">
+                    <a href="#">
+                        <img id="fix-img-s03" src="img/zxd/aside/2017-08-22_104816.png" alt="">
+                    </a>
+                </div>
+                <div class="spans spans2" id="spans-s2">
+                    <span>放回顶部</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- fixed 2个 -->
+<script src="js/zxd/site-nav.js"></script>
+<script src="js/zxd-goods/content.js"></script>
+<script src="js/zxd-goods/fixed.js"></script>
+</body>
+</html>

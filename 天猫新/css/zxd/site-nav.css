@@ -1,0 +1,165 @@
+#site-nav .container{
+    width: 85%;
+    height: 32px;
+    position: relative;
+}
+#site-nav{
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*  nav-logo*/
+#nav-log{
+    float: left;
+    height: 32px;
+}
+#nav-log  ul li{
+    font-size:14px;
+    list-style: none;
+    float: left;
+    line-height: 32px;
+    color: #999;
+    font-style: normal;
+    margin-right: 19px;
+}
+#nav-log  ul li a {
+    color: #999999;
+}
+#nav-log ul li a:hover{
+    color: #ff0036;
+}
+    /*  nav-pri*/
+#nav-pri{
+    height: 32px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+#nav-pri ul{
+    line-height: 32px;
+}
+#nav-pri ul li{
+    color: #999999;
+    font-size: 14px;
+    float: left;
+    margin-right: 10px;
+}
+#nav-pri ul li div:nth-of-type(2){
+    position: absolute;
+    top: 32px;
+    display: none;
+    z-index: 5;
+}
+/*  每一个下拉菜单  */
+#nav-private1 .pull-down{
+    width: 90px;
+    background-color: #ffffff;
+}
+#nav-private5 .pull-down{
+    width: 82px;
+    background-color: #fff;
+}
+
+
+#nav-private8 .pull-down{
+    width: 144px;
+    /*height: 276px;*/
+    background-color: white;
+    position: absolute;
+    right: 110px;
+}
+#nav-private8 .pull-down div2{
+    border: 1px solid #000;
+    float: left;
+}
+#nav-private8 .pull-down div ul li{
+    height: 32px;
+    float: left;
+}
+
+
+
+
+#nav-private9 .pull-down{
+    width: 1300px;
+    height: 220px;
+
+    background-color: white;
+    position: absolute;
+    right: 0px;
+}
+#nav-private9 .pull-down div{
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#nav-private9 .pull-down div ul li{
+    width: 92px;
+    float: left;
+}
+#nav-private9 .pull-down div ul li a{
+    color: #8b8b8b;
+}
+#nav-private9 .pull-down div p{
+    font-size: 19px;
+    color: #4a4a4a;
+}
+#nav-private9 .pull-down .box1{
+    width: 375px;
+    height: 200px;
+    float: right;
+}
+#nav-private9 .pull-down .box2{
+    width: 320px;
+    height: 200px;
+    float: right;
+
+}
+#nav-private9 .pull-down .box3{
+    width: 250px;
+    height: 200px;
+    float: right;
+    display: inline-block;
+
+}
+#nav-private9 .pull-down .box4{
+    width: 140px;
+    height: 200px;
+    float: right;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 特殊的 作为 一道使用*/
+
+.pri-i .pri-i-img{
+    width: 9px;
+    height: 9px;
+
+    transform: rotate(0deg);
+    transform-origin: 50% 50% 0px;
+
+    transition:transform 0.5s;
+}
+/* 增加了一个动画 */
+
+
+
+/*  放大缩小 transform: scale(1.5)  */
+
+#nav-private3 div:hover,#nav-private4 div:hover{
+    color: #ff0036;
+}
+
+

@@ -1,0 +1,481 @@
+
+/*Ⅰ c-nav*/
+   /*外*/
+.content-out-nav{
+    height: 36px;
+    background-color: red;
+}
+     /* 容器*/
+.content-out-nav .container{
+    width: 85%;
+    height: 36px;
+}
+#c-nav{
+    background-color:#ff0036;
+    height: 36px;
+}
+#c-nav .classify{
+    float: left;
+    width: 200px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #e22127;
+}
+#c-nav .classify img{
+    vertical-align: middle;
+    width: 16px;
+    margin-left: -80px;
+    margin-right: 8px;
+}
+#c-nav .classify span{
+    font-size:16px;
+    font-weight:700;
+    color: white;
+}
+#c-nav .lists{
+    float: left;
+
+}
+#c-nav .lists a{
+    display: block;
+    float: left;
+}
+#c-nav .lists a img{
+    height: 36px;
+}
+#c-nav .lists a{
+    color: white;
+    line-height: 36px;
+    margin-right: 25px;
+}
+#c-nav .lists a:nth-of-type(1){
+    margin-left: 20px;
+}
+
+/*<!-- Ⅱ c-carousel  大轮播-->*/
+#c-carousel{
+    height: 500px;
+}
+.content-out-carousel{
+    height: 500px;
+}
+.content-out-carousel .container{
+    width: 85%;
+    height: 500px;
+    position: relative;
+}
+/*c-carousel   c-carouse2*/
+#c-carousel{
+    width: 200px;
+    height: 500px;
+    background-color: rgba(238,238,238,.95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#c-carousel .aside-main{
+    background-color: rgba(238,238,238,0.95);
+}
+#c-carousel .aside-main ul li{
+    font-size: 14px;
+    height: 31px;
+    line-height: 31px;
+}
+#c-carousel .aside-main ul li:hover{
+    background-color: white;
+}
+#c-carousel .aside-main ul li img{
+    padding-left: 5px;
+    padding-right: 7px;
+    padding-top: 3px;
+}
+#c-carousel .aside-fu{
+    display: none;
+    height: 500px;
+    width: 852px;
+    position: absolute;
+    left: 200px;
+    background-color: #f6feff;
+}
+
+
+#c-carouse2{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-repeat:repeat;
+    left: 0;
+    top:0;
+    z-index: 1;
+}
+#c-carouse2 .circle .circle-item{
+    width: 18px;
+    height: 18px;
+    border-radius: 11px;
+    margin-left: 10px;
+    border: 2px solid rgba(238, 238, 238, 0.77);
+    float: left;
+}
+#c-carouse2 .circle .circle-item:hover{
+    background-color: #ff0036;
+}
+#c-carouse2 .circle{
+    position: absolute;
+    bottom: 20px;
+    left: 550px;        
+}
+#c-carouse2 a{
+    display: none;
+}
+#c-carouse2 a:nth-of-type(3){
+    display: inline;
+}
+
+
+
+
+
+/*<!--  container3 -->*/
+#content{
+    position: relative;
+}
+#content .container3{
+    /*border: 1px solid #000;*/
+    width: 85%;
+}
+/*                                                Ⅲ c-shop-nav   */
+#c-shop-nav{
+    width: 100%;
+    height: 450px;
+}
+/*<!-- 1 cs-video 2-->*/
+#cs-video{
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;   
+}
+/*<!--    1.1 video-live 3 -->*/
+#video-live{
+    width: 550px;
+    height:550px;
+    float: left;
+}
+/*<!--           1 lives 1-->*/
+#lives{
+    width: 100%;
+    height: 275px;
+    position: relative;
+}
+#lives .zhi-icon img{
+    width: 70px;
+    height: 57px;
+    position: absolute;
+    top:45%;
+    left: 45%;
+}
+#lives .zhi-icon img:hover{
+    transform: scale(1.3);
+}
+
+#lives img{
+    height: 275px;
+    width: 550px;
+    display: none;
+}
+#lives img:nth-of-type(1){
+    display:inline;
+}
+#lives .zhibo{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+}
+#lives .zhibo{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: white;
+}
+#lives .zhibo img{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    transform: rotate(0deg);
+    transition: transform 1s;
+}
+#lives .zhibo img:hover{
+    transform: rotate(360deg);
+}
+
+/*<!--           2 lives-list 3 轮播-->*/
+
+#lives-list{
+    width: 100%;
+    height: 130px;
+    background-color: #060606;
+}
+#lives-list ul li{
+    float: left;
+    width: 32%;
+    height: 100%;
+    /*display: none;*/
+}
+#lives-list ul li img{
+    width: 100%;
+    height: 95%;
+}
+
+/*<!--           3 lives-ad 2 轮播-->*/
+#lives-ad{
+    width: 100%;
+    height: 70px;
+    /*margin-top: 9px;*/
+    /*margin-left: 21px;*/
+    background-color: #060606;
+}
+#lives-ad .left{
+    float: left;
+    position: relative;
+}
+#lives-ad .left .box1{
+    position: absolute;
+    top:22px;
+    left: 20px;
+}
+#lives-ad .right{
+    float: left;
+    position: absolute;
+    left: 230px;
+    margin-top: 20px;
+}
+#lives-ad .right .p2{
+    color: #ff4216;
+}
+#lives-ad .right .p1{
+    color: white;
+}
+#lives-ad .right .p22{
+display: none;
+}
+/*<!--    1.2 video-lists 4*6 -->*/
+#video-lists{
+    /*background-color: #e1e3f5;*/
+    margin-right: -1px;
+    width: 732px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+#video-lists ul li{
+    list-style: none;
+    float: left;
+    width: 121px;
+    height: 108px; 
+    line-height: 108px;
+}
+#video-lists ul li:hover{
+    opacity: 0.6;
+    position: relative;
+    top: -5px;
+    box-shadow:0px 3px 5px #a7b2ff;
+}
+#video-lists ul li img{
+    vertical-align: middle;
+
+    /**/
+}
+#video-lists ul li img:hover{
+    transform: scale(1.1);
+}
+#video-lists ul li:nth-of-type(24) img{
+    /*transform: roto;*/
+    transform: rotate(0deg);
+    transition: transform 1s;
+
+}
+#video-lists ul li:nth-of-type(24) img:hover{
+    transform: rotate(720deg);
+}
+
+
+
+
+/*<!-- 2 cs-pay 5-->*/
+
+#cs-pay{
+    /*border: 1px solid #000;*/
+    width: 100%;
+    height: 477px;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
+#cs-pay .items{
+    float: left;
+    height: 476px;
+    text-align: center;
+    width: 19%;
+}
+/*上下高*/
+
+#cs-pay .items{
+    margin-right: 10px;
+}
+#cs-pay .items-head{
+    height: 9%;
+    background-color:  #ff0036;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+
+#cs-pay .items-head .icon img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+#cs-pay .items-body  img:hover{
+    position: relative;
+    left: -4px;
+}
+#cs-pay .items-body h4{
+    font-size:23px;
+    
+}
+#cs-pay .items-head span{
+    color: #e6e6e6;
+    text-align: center;
+    font-size:20px;
+    font-weight:900;
+}
+#cs-pay .items-body{
+    height: 45%;
+}
+
+#cs-pay .items img{
+    width: 140px;
+    height: 140px;
+}
+/*<!--      5个大的 里面1个头 1个body 里面再加2个肉 -->*/
+
+
+/*<!-- 3 cs-ad 1-->*/
+
+#cs-ad{
+
+    width: 100%;
+    height: 90px;
+    clear: both;
+}
+#cs-ad .container{
+    width: 100%;
+    height: 90px;
+}
+#cs-ad img{
+    width: 100%;
+}
+
+
+
+/*<!-- Ⅴ c-guess -->*/
+#c-guess{
+    margin-top: 50px;
+    text-align: center;
+}
+#c-guess .guess-head{
+    position: relative;
+}
+#c-guess .guess-head span{
+    display: inline-block;
+}
+#c-guess .guess-head .span-title{
+    font-size:42px;
+    font-weight:300;
+    color: #8b8b8b;
+    line-height: 40px;
+}
+#c-guess .guess-head .span-img{
+    padding-top: 6px;
+}
+#c-guess .guess-head .line{
+    height: 1px;
+    width: 50px;
+    background-color: #8b8b8b;
+    vertical-align: middle;
+    position: relative;
+}
+#c-guess .guess-head .line1{
+    top: -12px;
+}
+#c-guess .guess-head .line2{
+    top: -12px;
+}
+/*  商品列表  */
+#c-guess .container{
+    width: 100%;
+}
+#c-guess .container .border-need{
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+#c-guess .container ul{
+    margin-top: 10px;
+}
+#c-guess .container ul li{
+    box-sizing: border-box;
+    padding: 1px;
+
+    float: left;
+    width: 20%;
+}
+#c-guess .container ul li:hover{
+    background-color: #ff0036;
+}
+#c-guess .container ul li .pic-img img{
+    height: 230px;
+    width: 100%;
+}
+#c-guess .container ul li .price{
+     color: #ff0036;
+    display: block;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 7px;
+    font-size:20px;
+}
+
+#c-guess .guess-footer span{
+    display: inline-block;
+    padding-top: 10px;
+}
+#c-guess .guess-footer span img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
